@@ -1,0 +1,17 @@
+1 - Qual a importância das estruturas de seleção para o desenvolvimento de algoritmos?
+
+  As estruturas de seleções são importantes pois permitem a verificação das possibilidades entre variáveis
+dentro de estruturas condicionais. Entre elas temos a estrutura de seleção &&(and) que faz a verificação
+entre duas possibilidades verdadeiras, também havendo a estrutura de seleção ||(or) que permite a análise
+de duas possibilidades, porém pelo menos uma possibilidade deve ser verdadeira. 
+
+
+
+2 - Você trabalha para a NASA e neste momento uma de suas tarefas é criar um algoritmo para determinar o 
+momento em que o escudo térmico será desprendido de um foguete. Supondo que isto deva ocorrer quando a divisão 
+entre duas grandezas escalares P e Q esteja entre 0.003 e 0.004, qual tipo de divisão vista em aula você empregaria 
+no algoritmo? Para que a divisão escolhida ocorra com sucesso quais tipos você usaria para declarar P e Q?
+
+  Seria ideal a utilização da divisão padrão(/), pois ela permite a divisão de números , sendo assim
+o resto de divisão(%) não seria ideal pois ela é apenas possível entre números inteiros. Nesta situação
+seria também ideal armazenar os valores em uma variável doubles pois permite a maior precisao na hora da divisão.
