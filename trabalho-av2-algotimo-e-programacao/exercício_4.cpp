@@ -10,7 +10,6 @@ int main(){
     while (numero != 0){
         soma = soma + (numero % 10);
         numero /= 10;
-        divisao *= 10;
     }
     cout << "A soma entre os numeros e " << soma;
 }
