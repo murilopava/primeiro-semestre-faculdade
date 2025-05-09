@@ -90,7 +90,7 @@ int main(){
                 cout << quantCedulamoeda << " moedas de 0.01 " << endl;
             }
         } else{
-            break;
+            return 1;
         }
     }
 
