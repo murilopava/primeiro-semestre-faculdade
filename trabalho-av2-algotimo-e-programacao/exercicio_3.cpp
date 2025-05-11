@@ -9,7 +9,7 @@ int main(){
     cin >> valor;
 
     cout << "O valor vai receber:" << endl;
-    while (valor != 0){
+    while (valor != 0.01){
         if (valor >= 100){
             quantCedulamoeda = int(valor / 100);
             valor -= quantCedulamoeda * 100;
@@ -81,10 +81,10 @@ int main(){
             
             cout << quantCedulamoeda << " moeda de 0.05 " << endl;
         } else if (valor >= 0.01){
-            quantCedulamoeda = int(valor / 0.01);
+            quantCedulamoeda = int(valor * 100 + 0.01);
             valor -= quantCedulamoeda * 0.01;
 
-            if (quantCedulamoeda == 0.01){
+            if (quantCedulamoeda == 1){
                 cout << quantCedulamoeda << " moeda de 0.01 " << endl;
             } else{
                 cout << quantCedulamoeda << " moedas de 0.01 " << endl;
