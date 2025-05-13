@@ -37,7 +37,7 @@ int main(){
         if (escMovimentos == 1){
             if (copoCorreto == 1){
                 copoCorreto = 2;
-            } else if(copoCorreto = 2){
+            } else if(copoCorreto == 2){
                 copoCorreto = 1;
             }
             
