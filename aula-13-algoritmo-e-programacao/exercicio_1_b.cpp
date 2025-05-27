@@ -19,4 +19,5 @@ int main(){
         cout << "Soma da linha " << l << ": " << soma << endl;    
     }
 
+    return 0;
 }
